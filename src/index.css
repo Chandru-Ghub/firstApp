@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+footer{
+  border-radius: 22px;
+  
+}
+footer:hover{
+  transform: scale(1.005);
+  
+}
+main{
+  height: 79vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+li{
+  list-style: none;
+}
+.ulist{
+  /* background-color: red; */
+  width: 100%;
+
+  
+}
+.item{
+  font-size: 30px;
+  padding: 30px;
+  margin: auto;
+  background-color: #e2dfdf;
+  margin-bottom: 10px;
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content:start;
+  user-select: none;
+}
+.item input[type = 'checkbox']:focus + label{
+  text-decoration: underline;
+  color: blue;
+  
+}
+.item > label{
+  font-size: 28px;
+  flex-grow:1 ;
+  /* background-color: green; */
+}
+.item input[type = 'checkbox']{
+  width: 40px;
+  height: 40px;
+}
+.item svg{
+  color: grey;
+  outline: none;
+}
+.item svg:hover{
+  opacity: .8;
+ 
+}
+.item svg:active{
+  color: red;
+  transform:rotate3d()
+ 
+  /* transform: scale(1.1); */
+}
+/* .item svg:focus{
+  color: green;
+
+} */
