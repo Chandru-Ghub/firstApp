@@ -2,9 +2,9 @@ import React from 'react';
 import { useState } from 'react';
 import { FaTrashAlt } from "react-icons/fa";
 
-const Content = (handleCheck,ondel,itemsList,setItems,sty,st) => {
+const Content = ({handleCheck,ondel,itemsList,sty,st}) => {
 
-        console.log(itemsList)
+        // console.log(itemsList)
 
   return (
     

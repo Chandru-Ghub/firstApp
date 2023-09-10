@@ -1,0 +1,19 @@
+{
+    "items":[
+        {
+            "id":1,
+            "checked":false,
+            "task":"react"
+        },
+        {
+            "id":2,
+            "checked":true,
+            "task":"coding"
+        },
+        {
+            "id":3,
+            "checked":false,
+            "task":"revision"
+        }
+    ]
+}

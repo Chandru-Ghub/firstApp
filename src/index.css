@@ -20,7 +20,7 @@ footer:hover{
   
 }
 main{
-  height: 79vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,3 +78,58 @@ li{
   color: green;
 
 } */
+.form{
+background: red;
+text-align: center;
+padding: 10px;
+>input{
+  padding: 10px;
+}
+>label{
+  display: none;
+}
+}
+.pcr{
+  background: white;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  >form{
+    display: flex;
+    flex-direction: column;
+    
+  
+  >input{
+      padding: 10px 0px;
+      color: red;
+      width: 200px;
+      margin-bottom: 10px;
+      /* text-align: center; */
+      font-size: 20px;
+      padding-left: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 1px 15px black;
+  }
+ 
+}
+>button{
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 15px black;
+}
+.color{
+  background-color: white;
+  width: 220px;
+  height: 200px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 8px black;
+}
+}
